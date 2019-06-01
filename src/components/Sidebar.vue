@@ -4,7 +4,7 @@
       <div class="panel-search">
         <input required class="panel-search-input" v-model="searchWord" type="text" placeholder="キーワード検索">
         <!-- <button @click="search" class="panel-search-btn"><i class="fas fa-search"></i></button> -->
-        <router-link class="panel-search-btn" :to="{name: 'ItemKeyword', query: {searchWord : searchWord}}"><i class="fas fa-search"></i></router-link>
+        <router-link class="panel-search-btn" :to="{name: 'ItemKeyword', query: {searchWord : searchWord}}"><font-awesome-icon class="icon" icon="search" /></router-link>
       </div>
     </div>
     <div class="panel">
