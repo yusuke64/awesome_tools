@@ -1,21 +1,9 @@
-# awesome_tools
+# AWESOME TOOLS
+便利なツールや拡張機能を紹介するサイトです。
+url→https://yusuke64.github.io/awesome_tools/
 
-> A Vue.js project
+# 使った技術
+HTML/SCSS/Vue.js/Vue Router
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 機能
+カテゴリーでの絞り込みと、キーワード検索機能をつけています。
