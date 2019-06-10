@@ -126,6 +126,11 @@ a{
         .icon{
             font-size: 25px;
             color: #aaaaaa;
+
+            @include mq(s) {
+                position: relative;
+                top: 5px;
+            }
         }
     }
 }

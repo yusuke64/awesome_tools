@@ -3,7 +3,7 @@ const database = [
   {
     itemId: 6,
     image: 'vscode.png',
-    demo: 'sample.gif',
+    demo: 'aouto_close.gif',
     url: 'https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag',
     title: 'Auto Close Tag',
     categorys: [
@@ -23,7 +23,7 @@ const database = [
   {
     itemId: 5,
     image: 'vscode.png',
-    demo: 'sample.gif',
+    demo: 'trailing_spaces.png',
     url: 'https://marketplace.visualstudio.com/items?itemName=shardulm94.trailing-spaces',
     title: 'Trailing Spaces',
     categorys: [
@@ -36,7 +36,7 @@ const database = [
         name: 'coding'
       },
     ],
-    text: '余分な空白を表示してくれるvscodeの拡張機能。これがあれば空白ミスに時間を取られる心配はない。',
+    text: '余分な空白を表示してくれるvscodeの拡張機能。',
     date: 2019.05
   },
 
@@ -83,7 +83,7 @@ const database = [
   {
     itemId: 2,
     image: 'chrome.png',
-    demo: 'sample.gif',
+    demo: 'website_ip.png',
     url: 'https://chrome.google.com/webstore/detail/website-ip/ghbmhlgniedlklkpimlibbaoomlpacmk?hl=ja',
     title: 'Website IP',
     categorys: [
