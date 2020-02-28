@@ -2,9 +2,9 @@
   <section class="sidebar">
     <div class="panel">
       <div class="panel-search">
-        <input required class="panel-search-input" v-model="searchWord" type="text" placeholder="キーワード検索">
-        <!-- <button @click="search" class="panel-search-btn"><i class="fas fa-search"></i></button> -->
-        <router-link class="panel-search-btn" :to="{name: 'ItemKeyword', query: {searchWord : searchWord}}"><font-awesome-icon class="icon" icon="search" /></router-link>
+        <input required class="panel-search-input" @keydown.enter="search" v-model="searchWord" type="text" placeholder="キーワード検索">
+        <button @click="search" class="panel-search-btn"><font-awesome-icon class="icon" icon="search" /></button>
+        <!-- <router-link class="panel-search-btn js_search_btn" :to="{name: 'ItemKeyword', query: {searchWord : searchWord}}"><font-awesome-icon class="icon" icon="search" /></router-link> -->
       </div>
     </div>
     <div class="panel">
@@ -41,7 +41,8 @@ export default {
   },
   methods: {
     search: function() {
-      if(!this.searchWord) return;
+      if(!this.searchWord) return
+      this.$router.push({name: 'ItemKeyword', query: {searchWord : this.searchWord}})
     }
   },
   watch: {
